@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Βασίλειος Βαρέλης | Portfolio</title>
+  <meta name="description" content="Βασίλειος Βαρέλης — Πτυχιούχος Πληροφορικής & Τηλεπικοινωνιών (Πανεπιστήμιο Ιωαννίνων). Networking, hardware, troubleshooting και live sound." />
+  <meta property="og:title" content="Βασίλειος Βαρέλης | Portfolio" />
+  <meta property="og:description" content="Πληροφορική & Τηλεπικοινωνίες · Networking · Hardware · Live Sound" />
+  <meta property="og:image" content="assets/profile.jpg" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__logo">ΒΒ<span>.</span></a>
+      <button class="nav__toggle" aria-label="Μενού" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links">
+        <a href="#about">Σχετικά</a>
+        <a href="#skills">Δεξιότητες</a>
+        <a href="#experience">Εμπειρία</a>
+        <a href="#education">Εκπαίδευση</a>
+        <a href="#training">Σεμινάρια</a>
+        <a href="#contact" class="btn btn--small">Επικοινωνία</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <p class="eyebrow">Γεια, είμαι ο</p>
+          <h1>Βασίλειος Βαρέλης</h1>
+          <p class="hero__role">Πτυχιούχος Πληροφορικής &amp; Τηλεπικοινωνιών</p>
+          <p class="hero__lead">
+            Networking, hardware και technical troubleshooting — με εμπειρία
+            στον χώρο του επαγγελματικού ήχου και των live εκδηλώσεων.
+          </p>
+          <div class="hero__cta">
+            <a href="#contact" class="btn">Επικοινωνήστε μαζί μου</a>
+            <a href="#experience" class="btn btn--ghost">Δείτε την εμπειρία μου</a>
+          </div>
+          <ul class="hero__meta">
+            <li>📍 Άρτα, Ελλάδα</li>
+            <li>🎓 Πανεπιστήμιο Ιωαννίνων</li>
+            <li>🌐 Αγγλικά B2</li>
+          </ul>
+        </div>
+        <div class="hero__photo reveal">
+          <div class="photo-ring">
+            <img src="assets/profile.jpg" alt="Φωτογραφία του Βασίλειου Βαρέλη" width="400" height="400" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title reveal">Σχετικά με εμένα</h2>
+        <div class="about reveal">
+          <p>
+            Είμαι απόφοιτος του Τμήματος <strong>Πληροφορικής και Τηλεπικοινωνιών</strong>
+            του Πανεπιστημίου Ιωαννίνων (Άρτα), με τεχνικό υπόβαθρο από την ειδικότητα
+            <strong>Τεχνικού Ηλεκτρολογικών Συστημάτων, Εγκαταστάσεων και Δικτύων</strong> του ΕΠΑΛ.
+          </p>
+          <p>
+            Μου αρέσει να λύνω τεχνικά προβλήματα — από την εγκατάσταση και συντήρηση
+            υπολογιστών και δικτύων μέχρι το στήσιμο ηχητικών συστημάτων σε live events.
+            Παράλληλα παρακολουθώ σεμινάρια σε θέματα <strong>Κυβερνοασφάλειας</strong> και
+            <strong>Τεχνητής Νοημοσύνης</strong>, με διάθεση για συνεχή μάθηση.
+          </p>
+          <div class="stats">
+            <div class="stat"><span class="stat__num">6+</span><span class="stat__label">χρόνια εμπειρίας σε events</span></div>
+            <div class="stat"><span class="stat__num">8</span><span class="stat__label">σεμινάρια &amp; επιμορφώσεις</span></div>
+            <div class="stat"><span class="stat__num">B2</span><span class="stat__label">Αγγλικά</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title reveal">Δεξιότητες</h2>
+        <div class="grid grid--3">
+          <article class="card reveal">
+            <div class="card__icon">🌐</div>
+            <h3>Networking</h3>
+            <ul class="tags">
+              <li>IP addressing</li>
+              <li>Router configuration</li>
+              <li>LAN</li>
+              <li>Βασικές γνώσεις δικτύων</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🖥️</div>
+            <h3>Hardware &amp; Συστήματα</h3>
+            <ul class="tags">
+              <li>Windows Installation</li>
+              <li>Troubleshooting</li>
+              <li>Hardware Setup</li>
+              <li>Maintenance</li>
+              <li>Microsoft Office</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">💻</div>
+            <h3>Προγραμματισμός</h3>
+            <ul class="tags">
+              <li>Python</li>
+              <li>C</li>
+              <li>SQL</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🎛️</div>
+            <h3>Ήχος &amp; Events</h3>
+            <ul class="tags">
+              <li>Live sound systems</li>
+              <li>Επαγγελματικός εξοπλισμός ήχου</li>
+              <li>DJ / Music programming</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">⚡</div>
+            <h3>Ηλεκτρολογικά</h3>
+            <ul class="tags">
+              <li>Ηλεκτρολογικές εγκαταστάσεις</li>
+              <li>Καλωδιώσεις</li>
+              <li>Έλεγχος συστημάτων</li>
+            </ul>
+          </article>
+          <article class="card reveal">
+            <div class="card__icon">🤝</div>
+            <h3>Προσωπικές</h3>
+            <ul class="tags">
+              <li>Ομαδικό πνεύμα</li>
+              <li>Υπευθυνότητα</li>
+              <li>Προσαρμοστικότητα</li>
+              <li>Επίλυση προβλημάτων</li>
+              <li>Δημιουργικότητα</li>
+              <li>Συνεχής μάθηση</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__title reveal">Επαγγελματική εμπειρία</h2>
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <span class="timeline__date">Ιουλ 2023 — Σήμερα</span>
+            <h3>Τεχνικός Live εκδηλώσεων</h3>
+            <p class="timeline__org">GK SOUND · Άρτα</p>
+            <ul>
+              <li>Στήσιμο και χειρισμός ηχητικού εξοπλισμού</li>
+              <li>Τεχνική υποστήριξη σε live events</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__date">2019 — Σήμερα</span>
+            <h3>DJ &amp; Event Music Operator</h3>
+            <p class="timeline__org">Μουσική κάλυψη εκδηλώσεων</p>
+            <ul>
+              <li>Μουσική κάλυψη εκδηλώσεων (γάμοι, events)</li>
+              <li>Χειρισμός επαγγελματικού εξοπλισμού ήχου</li>
+              <li>Διαχείριση προγράμματος μουσικής ανάλογα με το κοινό</li>
+              <li>Επικοινωνία με πελάτες και διοργανωτές</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__date">Ιαν 2020 — Ιουλ 2020</span>
+            <h3>Βοηθός Ηλεκτρολόγου</h3>
+            <p class="timeline__org">VASSILAKIS SECURITY · Άρτα</p>
+            <ul>
+              <li>Βοήθεια σε ηλεκτρολογικές εγκαταστάσεις</li>
+              <li>Καλωδιώσεις, έλεγχος συστημάτων και υποστήριξη συνεργείων</li>
+            </ul>
+          </li>
+          <li class="timeline__item reveal">
+            <span class="timeline__date">Οκτ 2019 — Δεκ 2019</span>
+            <h3>Πωλητής πακέτων κινητής τηλεφωνίας</h3>
+            <p class="timeline__org">COSMOTE · Άρτα</p>
+            <ul>
+              <li>Προώθηση πακέτων</li>
+              <li>Εξυπηρέτηση πελατών &amp; επίτευξη στόχων</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <h2 class="section__title reveal">Εκπαίδευση</h2>
+        <div class="grid grid--3">
+          <article class="card card--edu reveal">
+            <span class="card__date">Οκτ 2019 — Φεβ 2026</span>
+            <h3>Πτυχίο Πληροφορικής &amp; Τηλεπικοινωνιών</h3>
+            <p class="card__org">Πανεπιστήμιο Ιωαννίνων · Άρτα</p>
+            <p class="card__grade">Βαθμός: 6,41</p>
+          </article>
+          <article class="card card--edu reveal">
+            <span class="card__date">Σεπτ 2016 — Ιουν 2019</span>
+            <h3>Απολυτήριο Επαγγελματικού Λυκείου</h3>
+            <p class="card__org">ΕΠΑΛ Άρτας</p>
+            <p class="card__grade">Βαθμός: 18,2 «Άριστα»</p>
+          </article>
+          <article class="card card--edu reveal">
+            <span class="card__date">Σεπτ 2016 — Ιουν 2019</span>
+            <h3>Τεχνικός Ηλεκτρολογικών Συστημάτων, Εγκαταστάσεων &amp; Δικτύων</h3>
+            <p class="card__org">Πτυχίο ειδικότητας ΕΠΑΛ · Άρτα</p>
+            <p class="card__grade">Βαθμός: 18,8 «Άριστα»</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRAINING -->
+    <section class="section" id="training">
+      <div class="container">
+        <h2 class="section__title reveal">Σεμινάρια &amp; Επιμόρφωση</h2>
+        <ul class="training">
+          <li class="reveal"><span>Μαρ 2026</span><p>Τεχνητή Νοημοσύνη &amp; Κυβερνοασφάλεια: Απειλές, Άμυνα και Κανονιστική Συμμόρφωση <em>— Education Festival 2026</em></p></li>
+          <li class="reveal"><span>Μαρ 2026</span><p>World of Data Security &amp; Cybersecurity <em>— Education Festival 2026</em></p></li>
+          <li class="reveal"><span>Μαρ 2026</span><p>Η Τεχνητή Νοημοσύνη ως εργαλείο του Γραφίστα <em>— Education Festival 2026</em></p></li>
+          <li class="reveal"><span>Μαρ 2026</span><p>Τα εργαλεία της Google στον κόσμο των προγραμματιστών <em>— Education Festival 2026</em></p></li>
+          <li class="reveal"><span>Ιουν 2022</span><p>Πώς κάνω τη δική μου επιχείρηση, βήμα – βήμα <em>— Education Festival 2022</em></p></li>
+          <li class="reveal"><span>Απρ 2022</span><p>Artificial Intelligence and Machine Learning with Python <em>— Education Festival 2022</em></p></li>
+          <li class="reveal"><span>Οκτ 2021</span><p>Αναβαθμίστε τις Τεχνολογικές σας Δεξιότητες <em>— Erasmus+ «Gen-Z: Developing competences and opportunities for social media entrepreneurship»</em></p></li>
+          <li class="reveal"><span>Δεκ 2019</span><p>Πρώτες βοήθειες — «Η Γνώση σώζει ζωές» <em>— Ημερίδα</em></p></li>
+        </ul>
+
+        <div class="interests reveal">
+          <h3>Ενδιαφέροντα</h3>
+          <ul class="tags tags--lg">
+            <li>🎵 Μουσική</li>
+            <li>🎚️ Τεχνολογία ήχου</li>
+            <li>⚽ Αθλητισμός</li>
+            <li>✈️ Ταξίδια</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section section--alt" id="contact">
+      <div class="container contact reveal">
+        <h2 class="section__title">Ας μιλήσουμε</h2>
+        <p class="contact__lead">
+          Ψάχνω ευκαιρίες σε IT support, networking και τεχνικούς ρόλους.
+          Στείλτε μου ένα μήνυμα!
+        </p>
+        <div class="contact__links">
+          <a class="btn" href="mailto:varelisvasilis100@gmail.com">✉️ varelisvasilis100@gmail.com</a>
+          <a class="btn btn--ghost" href="https://github.com/vasilisvarelis" target="_blank" rel="noopener">GitHub</a>
+        </div>
+        <p class="contact__extra">🚗 Δίπλωμα οδήγησης Β &amp; Α2 · 🎖️ Εκπληρωμένες στρατιωτικές υποχρεώσεις</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Βασίλειος Βαρέλης</p>
+      <a href="#top">↑ Αρχή</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
